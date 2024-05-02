@@ -1,0 +1,10 @@
+.testimonial-slider:not(.slick-initialized) {
+    flex-wrap: nowrap;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.testimonial-slider:not(.slick-initialized) .testimonial-slider-items {
+    display: inline-block;
+    text-wrap: initial;
+    flex: 1 0 auto;
+}
